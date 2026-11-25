@@ -32,4 +32,4 @@ Early prototype. The Ender already drives a **pen-plotter tool** from G-code sen
 | `TC-PenPlotter-V1-BandLoaded.stl` | Pen-plotter tool, V1, band-loaded pen |
 
 ## AI-supervised printing (companion work)
-A Telegram bot controls a Flashforge Adventurer 3 (start/pause/stop, axes, temperatures, live camera). A CNN on the camera feed is being trained to detect print failures and pause the print. The end goal is a closed loop that edits the remaining G-code mid-print.
+[flashBot](https://github.com/VishnuSuhasChinta/flashBot) controls a Flashforge Adventurer 3 from Telegram (start/pause/stop, file upload, axes, temperatures). A CNN on the camera feed is being trained to detect print failures and pause the print. The end goal is a closed loop that edits the remaining G-code mid-print.
