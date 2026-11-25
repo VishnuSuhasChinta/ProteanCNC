@@ -33,3 +33,12 @@ Early prototype. The Ender already drives a **pen-plotter tool** from G-code sen
 
 ## AI-supervised printing (companion work)
 [flashBot](https://github.com/VishnuSuhasChinta/flashBot) controls a Flashforge Adventurer 3 from Telegram (start/pause/stop, file upload, axes, temperatures). A CNN on the camera feed is being trained to detect print failures and pause the print. The end goal is a closed loop that edits the remaining G-code mid-print.
+
+## Licence
+Copyright Vishnu Suhas Chinta and Tejas Singh 2026.
+
+This source describes Open Hardware and is licensed under the **CERN-OHL-S v2** (see `LICENSE`). You may use, modify and make it, including commercially, but if you share or sell a modified version you must release its source under the same licence.
+
+Source location: https://github.com/VishnuSuhasChinta/ProteanCNC
+
+Provided without any warranty, including merchantability, satisfactory quality and fitness for a particular purpose.
